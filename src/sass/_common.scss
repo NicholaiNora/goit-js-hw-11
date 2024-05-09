@@ -1,1 +1,76 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    font-family: "Roboto";
+}
+img {
+  display: block;
+  width: 270px;
+  height: 150px;
+  object-fit: cover;
+}
+
+header {
+    background: #1560c0; 
+}
+
+.header-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+}
+input[name='searchQuery'] {
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    border:none;
+}
+
+.gallery {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.gallery a {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+}
+
+.photo-card {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500px;
+}
