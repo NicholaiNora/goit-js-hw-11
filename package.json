@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування  додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
-  "homepage": "https://github.com/NicholaiNora/goit-js-hw-11",
+  "homepage": "https://nicholainora.github.io/goit-js-hw-11/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
